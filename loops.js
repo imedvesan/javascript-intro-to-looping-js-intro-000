@@ -17,3 +17,9 @@ function whileLoop (number) {
 }
 return "done";
 }
+
+function doWhileLoop (num) {
+  do {
+  cosole.log("I run once regardless.");
+} while (incrementVariable() < num);
+}
